@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should render without crashing 1`] = `
+<styled.div>
+  <GlobalStyleComponent />
+  <styled.div>
+    <div>
+      <div>
+        <Header
+          state={
+            Object {
+              "avgRating": "",
+              "bookedDates": Array [],
+              "cleaningFee": "",
+              "lastUpdated": "",
+              "nightlyPrice": "",
+              "pastWeekViews": "",
+              "reviewCount": "",
+              "roomId": "",
+              "serviceFee": "",
+            }
+          }
+        />
+        <styled.hr />
+        <Book
+          state={
+            Object {
+              "avgRating": "",
+              "bookedDates": Array [],
+              "cleaningFee": "",
+              "lastUpdated": "",
+              "nightlyPrice": "",
+              "pastWeekViews": "",
+              "reviewCount": "",
+              "roomId": "",
+              "serviceFee": "",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div />
+  </styled.div>
+  <styled.div>
+    <Styled(styled.button)>
+      <i
+        className="far fa-flag"
+      />
+      <span>
+         Report this listing
+      </span>
+    </Styled(styled.button)>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`PriceSummary component should render in the correct format 1`] = `
+<styled.div>
+  <styled.div>
+    <div>
+      <span>
+        $
+         x 
+         night
+      </span>
+    </div>
+    <div>
+      <span>
+        $
+        NaN
+      </span>
+    </div>
+  </styled.div>
+  <Styled(styled.hr) />
+  <styled.div>
+    <div>
+      <span>
+        Cleaning fee
+      </span>
+      <Styled(styled.button)
+        data-toggle="tooltip"
+        title="One-time fee charged by host to cover the cost of cleaning their space."
+        type="button"
+      >
+        <i
+          className="far fa-question-circle"
+        />
+      </Styled(styled.button)>
+    </div>
+    <div>
+      <span>
+        $
+      </span>
+    </div>
+  </styled.div>
+  <Styled(styled.hr) />
+  <styled.div>
+    <div>
+      <span
+        className="service-fee"
+      >
+        Service fee
+      </span>
+      <Styled(styled.button)
+        data-toggle="tooltip"
+        title="This helps us run our platform and offer services like 24/7 support on your trip."
+        type="button"
+      >
+        <i
+          className="far fa-question-circle"
+        />
+      </Styled(styled.button)>
+    </div>
+    <div>
+      <span>
+        $
+        NaN
+      </span>
+    </div>
+  </styled.div>
+  <Styled(styled.hr) />
+  <styled.div
+    style={
+      Object {
+        "fontWeight": "600",
+      }
+    }
+  >
+    <div>
+      <span
+        className="total"
+      >
+        Total
+      </span>
+    </div>
+    <div>
+      <span>
+        $
+        NaN
+      </span>
+    </div>
+  </styled.div>
+</styled.div>
+`;

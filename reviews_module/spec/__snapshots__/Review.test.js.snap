@@ -1,0 +1,321 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Reviews should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Review
+    name="Review test"
+    review={
+      Array [
+        Object {
+          "first_name": "Frederik",
+          "has_host_response": 1,
+          "host_reply_text": "Nemo ut tempora officiis voluptate doloremque aut. Blanditiis voluptatem et distinctio voluptas hic odio ipsam aut debitis. Ducimus dolorem nam qui suscipit sed et est dolorem.",
+          "image_photo_path": "https://s3.amazonaws.com/uifaces/faces/twitter/maximsorokin/128.jpg",
+          "review_date": "2018-11-24T08:00:00.000Z",
+          "review_is_english": 0,
+          "review_text": "Occaecati ipsam quia. Laudantium voluptas sunt molestiae ad nihil blanditiis dolorem. Nobis ut eveniet deserunt in sunt. Ut ea unde repudiandae autem provident aliquam dicta modi.",
+          "review_text_eng": "Veniam quis sapiente. Omnis nihil delectus. Ea eius commodi quis sit ipsam facere. Temporibus similique quasi aliquam magnam.",
+          "room_id": 50,
+        },
+        Object {
+          "first_name": "Carmelo",
+          "has_host_response": 1,
+          "host_reply_text": "Dolores adipisci dolorem at a laborum natus non ab deserunt. Sapiente aut modi facilis vitae ipsa dolor ratione et. Ipsa voluptate dolor. Qui et fugiat sit quia ea sapiente eligendi omnis fugiat. Nam laborum facilis sit debitis quo numquam ullam aut. Nam doloribus corrupti voluptatum vel ipsam.",
+          "image_photo_path": "https://s3.amazonaws.com/uifaces/faces/twitter/cyril_gaillard/128.jpg",
+          "review_date": "2018-05-31T07:00:00.000Z",
+          "review_is_english": 1,
+          "review_text": "Id sit modi. Natus in id quibusdam. Dignissimos veritatis tempora id voluptate. Ratione eos et tempore vel ipsum aliquam aut dignissimos. Rem dolor laudantium deleniti quos maxime asperiores ullam non. Voluptatem porro cumque.",
+          "review_text_eng": "Tempora adipisci animi sit quis quidem rerum vel. Nesciunt sunt a sint inventore. Quos veniam quidem molestiae animi in sed. Officiis fugit iusto quidem et voluptatum.",
+          "room_id": 50,
+        },
+        Object {
+          "first_name": "Elfrieda",
+          "has_host_response": 1,
+          "host_reply_text": "Sit laborum ut non nihil sed. Assumenda vero sed. Tenetur aut rem error quaerat nihil culpa at. Sint perspiciatis sunt sapiente dolorem consectetur veritatis dolorem enim. Consectetur molestiae amet veniam qui et quam tempore soluta sint.",
+          "image_photo_path": "https://s3.amazonaws.com/uifaces/faces/twitter/grahamkennery/128.jpg",
+          "review_date": "2018-02-07T08:00:00.000Z",
+          "review_is_english": 1,
+          "review_text": "Ea tempora quia repellat animi. Voluptatem odio eum est autem. Blanditiis et quos quod sapiente et quas itaque veritatis quibusdam. Fugit asperiores dolores voluptatibus molestias id consequuntur et doloremque. Unde dolorem illo est quas voluptas ut. Nihil perferendis ducimus aut blanditiis quia sint in.",
+          "review_text_eng": "Ab debitis totam doloremque expedita molestiae ea voluptatum sit neque. Ullam blanditiis illum error repellat deleniti. Porro et dolore eum quo omnis. Quia est quia minima alias quam dolorum. Quo deserunt autem qui quia eligendi. Tenetur minima doloribus.",
+          "room_id": 50,
+        },
+        Object {
+          "first_name": "Iva",
+          "has_host_response": 0,
+          "host_reply_text": "Earum ut aut nam temporibus libero aut dolor. Fugiat quia impedit sequi. Natus voluptas ut non eum veniam quas et explicabo debitis. Minima similique commodi velit iste. Beatae veritatis magni earum sed omnis deserunt et ullam.",
+          "image_photo_path": "https://s3.amazonaws.com/uifaces/faces/twitter/joelhelin/128.jpg",
+          "review_date": "2018-11-06T08:00:00.000Z",
+          "review_is_english": 0,
+          "review_text": "Et voluptatem quia neque eum consequuntur unde sit necessitatibus. Nisi id dicta consectetur labore temporibus est quisquam. Est optio ducimus atque itaque fugiat. Rerum porro id temporibus earum in dolores est. Iure hic ab illo qui odit numquam quis inventore maiores. Ea sunt est.",
+          "review_text_eng": "In velit voluptatem exercitationem et rem. Ipsa est sed sint totam molestiae facere voluptatum dolor nam. Enim rem beatae. Reiciendis est fugiat laudantium voluptatem optio placeat sed. Voluptatem et doloremque aut possimus. Consequatur dicta dolorem qui.",
+          "room_id": 50,
+        },
+        Object {
+          "first_name": "Arnaldo",
+          "has_host_response": 1,
+          "host_reply_text": "Enim eum nesciunt at aut. Ipsam cumque quo dolorem saepe quisquam nobis reprehenderit adipisci officiis. In expedita facilis et nisi quisquam fuga quis. Beatae est debitis qui voluptatibus consequuntur.",
+          "image_photo_path": "https://s3.amazonaws.com/uifaces/faces/twitter/vickyshits/128.jpg",
+          "review_date": "2018-11-02T07:00:00.000Z",
+          "review_is_english": 0,
+          "review_text": "Repellat quidem officiis itaque recusandae neque. Est ratione maxime hic repellendus. Facere et et consectetur.",
+          "review_text_eng": "Assumenda quae consequuntur quisquam et magni est deserunt. Necessitatibus adipisci rerum est magnam quo et hic eius. Dolores quisquam dolor voluptatum sint et. Voluptatum voluptates et minus. Et repudiandae qui unde quia porro.",
+          "room_id": 50,
+        },
+        Object {
+          "first_name": "Ova",
+          "has_host_response": 1,
+          "host_reply_text": "Itaque sunt eos voluptate et. Aliquid quo reprehenderit et exercitationem et molestias sequi est accusamus. Eos ad animi in. Cumque necessitatibus est ratione quia et a ipsum. Voluptatem autem recusandae maxime numquam laboriosam non. Et ad dolores et alias culpa dolores et recusandae.",
+          "image_photo_path": "https://s3.amazonaws.com/uifaces/faces/twitter/noxdzine/128.jpg",
+          "review_date": "2018-01-03T08:00:00.000Z",
+          "review_is_english": 0,
+          "review_text": "Natus consequuntur nostrum sunt cupiditate magni aut non rem. Fuga qui fuga et reprehenderit rem voluptate voluptatem aut. Necessitatibus doloribus tempora enim accusantium. Repudiandae molestiae rerum.",
+          "review_text_eng": "Similique delectus quia consequuntur. At ipsa enim quis magnam quis placeat. Laudantium et quaerat ipsa nihil. Quisquam facere soluta et at neque ad. Sit voluptas qui nam ipsum mollitia. Ullam provident voluptatem.",
+          "room_id": 50,
+        },
+        Object {
+          "first_name": "Elfrieda",
+          "has_host_response": 1,
+          "host_reply_text": "Sit laborum ut non nihil sed. Assumenda vero sed. Tenetur aut rem error quaerat nihil culpa at. Sint perspiciatis sunt sapiente dolorem consectetur veritatis dolorem enim. Consectetur molestiae amet veniam qui et quam tempore soluta sint.",
+          "image_photo_path": "https://s3.amazonaws.com/uifaces/faces/twitter/grahamkennery/128.jpg",
+          "review_date": "2018-02-07T08:00:00.000Z",
+          "review_is_english": 1,
+          "review_text": "Ea tempora quia repellat animi. Voluptatem odio eum est autem. Blanditiis et quos quod sapiente et quas itaque veritatis quibusdam. Fugit asperiores dolores voluptatibus molestias id consequuntur et doloremque. Unde dolorem illo est quas voluptas ut. Nihil perferendis ducimus aut blanditiis quia sint in.",
+          "review_text_eng": "Ab debitis totam doloremque expedita molestiae ea voluptatum sit neque. Ullam blanditiis illum error repellat deleniti. Porro et dolore eum quo omnis. Quia est quia minima alias quam dolorum. Quo deserunt autem qui quia eligendi. Tenetur minima doloribus.",
+          "room_id": 50,
+        },
+        Object {
+          "first_name": "Iva",
+          "has_host_response": 0,
+          "host_reply_text": "Earum ut aut nam temporibus libero aut dolor. Fugiat quia impedit sequi. Natus voluptas ut non eum veniam quas et explicabo debitis. Minima similique commodi velit iste. Beatae veritatis magni earum sed omnis deserunt et ullam.",
+          "image_photo_path": "https://s3.amazonaws.com/uifaces/faces/twitter/joelhelin/128.jpg",
+          "review_date": "2018-11-06T08:00:00.000Z",
+          "review_is_english": 0,
+          "review_text": "Et voluptatem quia neque eum consequuntur unde sit necessitatibus. Nisi id dicta consectetur labore temporibus est quisquam. Est optio ducimus atque itaque fugiat. Rerum porro id temporibus earum in dolores est. Iure hic ab illo qui odit numquam quis inventore maiores. Ea sunt est.",
+          "review_text_eng": "In velit voluptatem exercitationem et rem. Ipsa est sed sint totam molestiae facere voluptatum dolor nam. Enim rem beatae. Reiciendis est fugiat laudantium voluptatem optio placeat sed. Voluptatem et doloremque aut possimus. Consequatur dicta dolorem qui.",
+          "room_id": 50,
+        },
+        Object {
+          "first_name": "Arnaldo",
+          "has_host_response": 1,
+          "host_reply_text": "Enim eum nesciunt at aut. Ipsam cumque quo dolorem saepe quisquam nobis reprehenderit adipisci officiis. In expedita facilis et nisi quisquam fuga quis. Beatae est debitis qui voluptatibus consequuntur.",
+          "image_photo_path": "https://s3.amazonaws.com/uifaces/faces/twitter/vickyshits/128.jpg",
+          "review_date": "2018-11-02T07:00:00.000Z",
+          "review_is_english": 0,
+          "review_text": "Repellat quidem officiis itaque recusandae neque. Est ratione maxime hic repellendus. Facere et et consectetur.",
+          "review_text_eng": "Assumenda quae consequuntur quisquam et magni est deserunt. Necessitatibus adipisci rerum est magnam quo et hic eius. Dolores quisquam dolor voluptatum sint et. Voluptatum voluptates et minus. Et repudiandae qui unde quia porro.",
+          "room_id": 50,
+        },
+        Object {
+          "first_name": "Ova",
+          "has_host_response": 1,
+          "host_reply_text": "Itaque sunt eos voluptate et. Aliquid quo reprehenderit et exercitationem et molestias sequi est accusamus. Eos ad animi in. Cumque necessitatibus est ratione quia et a ipsum. Voluptatem autem recusandae maxime numquam laboriosam non. Et ad dolores et alias culpa dolores et recusandae.",
+          "image_photo_path": "https://s3.amazonaws.com/uifaces/faces/twitter/noxdzine/128.jpg",
+          "review_date": "2018-01-03T08:00:00.000Z",
+          "review_is_english": 0,
+          "review_text": "Natus consequuntur nostrum sunt cupiditate magni aut non rem. Fuga qui fuga et reprehenderit rem voluptate voluptatem aut. Necessitatibus doloribus tempora enim accusantium. Repudiandae molestiae rerum.",
+          "review_text_eng": "Similique delectus quia consequuntur. At ipsa enim quis magnam quis placeat. Laudantium et quaerat ipsa nihil. Quisquam facere soluta et at neque ad. Sit voluptas qui nam ipsum mollitia. Ullam provident voluptatem.",
+          "room_id": 50,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="review_name"
+        >
+          <b />
+        </div>,
+        <img
+          className="review_image_photo_path"
+        />,
+        <div
+          className="review_date"
+        />,
+        <div
+          className="review_text"
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <b />,
+          "className": "review_name",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "b",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "review_image_photo_path",
+          "src": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "className": "review_date",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+          "className": "review_text",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="review_name"
+          >
+            <b />
+          </div>,
+          <img
+            className="review_image_photo_path"
+          />,
+          <div
+            className="review_date"
+          />,
+          <div
+            className="review_text"
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <b />,
+            "className": "review_name",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "b",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "review_image_photo_path",
+            "src": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "review_date",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "review_text",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,633 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stars should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Stars
+    name="Star test"
+    stars={
+      Array [
+        Object {
+          "accuracy": 2.3667,
+          "check_in": 2.0333,
+          "cleanliness": 1.9333,
+          "communication": 1.6333,
+          "location": 1.9333,
+          "value": 1.7,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          <span>
+            <b>
+              Accuracy
+            </b>
+          </span>
+          <span>
+            <b>
+              Location
+            </b>
+          </span>
+        </div>,
+        <div>
+          <span>
+            <b>
+              Communication
+            </b>
+          </span>
+          <span>
+            <b>
+              Check-in
+            </b>
+          </span>
+        </div>,
+        <div>
+          <span>
+            <b>
+              Cleanliness
+            </b>
+          </span>
+          <span>
+            <b>
+              Value
+            </b>
+          </span>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              <b>
+                Accuracy
+              </b>
+            </span>,
+            <span>
+              <b>
+                Location
+              </b>
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <b>
+                  Accuracy
+                </b>,
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Accuracy",
+                },
+                "ref": null,
+                "rendered": "Accuracy",
+                "type": "b",
+              },
+              undefined,
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <b>
+                  Location
+                </b>,
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Location",
+                },
+                "ref": null,
+                "rendered": "Location",
+                "type": "b",
+              },
+              undefined,
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              <b>
+                Communication
+              </b>
+            </span>,
+            <span>
+              <b>
+                Check-in
+              </b>
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <b>
+                  Communication
+                </b>,
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Communication",
+                },
+                "ref": null,
+                "rendered": "Communication",
+                "type": "b",
+              },
+              undefined,
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <b>
+                  Check-in
+                </b>,
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Check-in",
+                },
+                "ref": null,
+                "rendered": "Check-in",
+                "type": "b",
+              },
+              undefined,
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              <b>
+                Cleanliness
+              </b>
+            </span>,
+            <span>
+              <b>
+                Value
+              </b>
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <b>
+                  Cleanliness
+                </b>,
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Cleanliness",
+                },
+                "ref": null,
+                "rendered": "Cleanliness",
+                "type": "b",
+              },
+              undefined,
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <b>
+                  Value
+                </b>,
+                undefined,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Value",
+                },
+                "ref": null,
+                "rendered": "Value",
+                "type": "b",
+              },
+              undefined,
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            <span>
+              <b>
+                Accuracy
+              </b>
+            </span>
+            <span>
+              <b>
+                Location
+              </b>
+            </span>
+          </div>,
+          <div>
+            <span>
+              <b>
+                Communication
+              </b>
+            </span>
+            <span>
+              <b>
+                Check-in
+              </b>
+            </span>
+          </div>,
+          <div>
+            <span>
+              <b>
+                Cleanliness
+              </b>
+            </span>
+            <span>
+              <b>
+                Value
+              </b>
+            </span>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                <b>
+                  Accuracy
+                </b>
+              </span>,
+              <span>
+                <b>
+                  Location
+                </b>
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <b>
+                    Accuracy
+                  </b>,
+                  undefined,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Accuracy",
+                  },
+                  "ref": null,
+                  "rendered": "Accuracy",
+                  "type": "b",
+                },
+                undefined,
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <b>
+                    Location
+                  </b>,
+                  undefined,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Location",
+                  },
+                  "ref": null,
+                  "rendered": "Location",
+                  "type": "b",
+                },
+                undefined,
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                <b>
+                  Communication
+                </b>
+              </span>,
+              <span>
+                <b>
+                  Check-in
+                </b>
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <b>
+                    Communication
+                  </b>,
+                  undefined,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Communication",
+                  },
+                  "ref": null,
+                  "rendered": "Communication",
+                  "type": "b",
+                },
+                undefined,
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <b>
+                    Check-in
+                  </b>,
+                  undefined,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Check-in",
+                  },
+                  "ref": null,
+                  "rendered": "Check-in",
+                  "type": "b",
+                },
+                undefined,
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                <b>
+                  Cleanliness
+                </b>
+              </span>,
+              <span>
+                <b>
+                  Value
+                </b>
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <b>
+                    Cleanliness
+                  </b>,
+                  undefined,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Cleanliness",
+                  },
+                  "ref": null,
+                  "rendered": "Cleanliness",
+                  "type": "b",
+                },
+                undefined,
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <b>
+                    Value
+                  </b>,
+                  undefined,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Value",
+                  },
+                  "ref": null,
+                  "rendered": "Value",
+                  "type": "b",
+                },
+                undefined,
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

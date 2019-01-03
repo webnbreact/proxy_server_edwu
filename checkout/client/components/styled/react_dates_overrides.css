@@ -1,0 +1,41 @@
+
+.DateInput_input__focused {
+  border: 0px solid;
+  border-color: rgba(0,132,137, 0);
+  border-radius: 5px;
+  background-color: #9aede6;
+}
+
+.DateInput_input {
+  height: 40px;
+  font-weight: 600px;
+}
+
+.DateInput_fang {
+  margin-top: -15px;
+}
+
+.DateRangePickerInput_clearDates {
+  right: -12px;
+}
+
+.DayPicker {
+  top: -16px;
+}
+
+.clear-cal {
+  color: #17a698;
+}
+
+.clear-cal:hover {
+  color: #b82222;
+}
+
+.CalendarDay__blocked_out_of_range {
+  text-decoration: line-through;
+}
+
+.KeyboardShortcutRow_key {
+  background-color: #f2f2f2;
+  font-family: monospace;
+}
