@@ -3,33 +3,34 @@
 import React from 'react';
 import axios from 'axios';
 import url from 'url';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 // import { BrowserRouter as Brouter, Switch, Route, Link } from 'react-router-dom';
-import { withRouter } from 'react-router';
 import CarouselCard from './CarouselCard';
+import { LandingPhotoGrid, MainLandingPhotoStyled, SideLandingPhotoGrid } from '../assets/StyledAssets';
+// const LandingPhotoGrid = styled.div`
+//   display: grid;
+//   grid-template-columns: auto 40vw 40vw;
+//   grid-auto-rows: 50vh;
+//   // border: 3px solid purple;
+//   width:98vw;
+//   margin-right: 1vw;
+//   gap: 1px;
+// `;
 
-const LandingPhotoGrid = styled.div`
-  display: grid;
-  grid-template-columns: auto 40vw 40vw;
-  grid-auto-rows: 50vh;
-  border: 3px solid purple;
-  width:98vw;
-  margin-right: 1vw;
-`;
+// const MainLandingPhotoStyled = styled.div`
+//   display: grid;
+//   grid-column: 1/3;
+//   gap: 0px;
+// `;
 
-const MainLandingPhotoStyled = styled.div`
-  display: grid;
-  grid-column: 1/3;
-  gap: 0px;
-`;
-
-const SideLandingPhotoGrid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  border:1px solid transparent;
-  overflow:hidden;
-  border: 5px solid blue;
-`;
+// const SideLandingPhotoGrid = styled.div`
+//   display: grid;
+//   gap: 1px;
+//   grid-template-columns: 1fr 1fr;
+//   // border:1px solid transparent;
+//   overflow:hidden;
+//   // border: 5px solid blue;
+// `;
 
 class CarouselLanding extends React.Component {
   constructor(props) {
@@ -43,13 +44,13 @@ class CarouselLanding extends React.Component {
   }
 
   componentDidMount() {
-    let { location, match, history, handleGetPictures } = this.props;
-
-    const dbLocation = 'http://localhost:4500';
-    const postUrl = url.resolve(dbLocation, location.pathname);
-
-    this.getDataFromServer(postUrl)
+    let { handleGetPictures } = this.props;
+    console.log('hello');
+    const queryUrl = url.parse(window.location.href).path;
+    console.log('http://localhost:4500' + queryUrl + 'pictures')
+    this.getDataFromServer('http://localhost:4500' + queryUrl + 'pictures')
       .then((data) => {
+        console.log(data);
         this.setState({ imageUrls: data });
         handleGetPictures(data);
       });
@@ -104,4 +105,4 @@ class CarouselLanding extends React.Component {
 }
 
 
-export default withRouter(CarouselLanding);
+export default (CarouselLanding);

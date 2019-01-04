@@ -9,7 +9,7 @@
   },
   "scripts": {
     "seed": "node scripts/normalbatcher.js",
-    "watch": "webpack --watch",
+    "watch": "webpack -d --watch",
     "test": "jest",
     "test:update": "jest -u",
     "dev": "webpack-dev-server"
@@ -26,10 +26,10 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "faker": "^4.1.0",
-    "mongod": "^2.0.0",
     "mongodb": "^3.1.10",
     "mongoose": "^5.4.0",
     "morgan": "^1.9.1",
+    "nodemon": "^1.18.9",
     "path": "^0.12.7",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -48,6 +48,7 @@
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.4",
+    "babel-plugin-styled-components": "^1.10.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
