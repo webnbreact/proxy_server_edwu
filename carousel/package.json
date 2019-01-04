@@ -10,6 +10,7 @@
   "scripts": {
     "seed": "node scripts/normalbatcher.js",
     "watch": "webpack -d --watch",
+    "react-dev": "nodemon server/index.js",
     "test": "jest",
     "test:update": "jest -u",
     "dev": "webpack-dev-server"
