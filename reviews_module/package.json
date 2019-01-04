@@ -9,6 +9,7 @@
   },
   "scripts": {
     "react-dev": "webpack -d --watch",
+    "build": "webpack",
     "start": "nodemon server/server.js",
     "seed": "mysql -u root -p < schema.sql && node database/dummydata.js",
     "test": "jest",
