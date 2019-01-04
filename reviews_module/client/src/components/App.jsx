@@ -36,7 +36,6 @@ class App extends React.Component {
     $.ajax({
       method: 'GET',
       url: `http://localhost:3000/rooms/${roomId}/reviews`,
-      // url: `/rooms/${roomId}/reviews`,
       success: (data) => {
         this.setState({
           isFiltered: false,
@@ -53,8 +52,7 @@ class App extends React.Component {
     const roomId = window.location.pathname.slice(7, -1);
     $.ajax({
       method: 'GET',
-      url: `http://localhost:3000/rooms/${roomId}/hostDetails`,    
-      // url: `/rooms/${roomId}/hostDetails`,
+      url: `http://localhost:3000/rooms/${roomId}/hostDetails`,
       success: (data) => {
         this.setState({
           hostInformation: data[0],
@@ -68,7 +66,6 @@ class App extends React.Component {
     $.ajax({
       method: 'GET',
       url: `http://localhost:3000/rooms/${roomId}/stars`,
-      // url: `/rooms/${roomId}/stars`,
       success: (data) => {
         this.setState({
           stars: data[0],
@@ -124,6 +121,7 @@ class App extends React.Component {
         <TopBarContainer stars={this.state.stars} visibleReviews={this.state.visibleReviews} getFilteredReviews={this.getFilteredReviews} />
         <div><Divider /></div>
         <FilterMessage getAllReviews={this.getAllReviews} currentSearchTerm={this.state.currentSearchTerm} visibleReviews={this.state.visibleReviews} />
+        <div><Divider /></div>
         <ReviewsContainer hostInformation={this.state.hostInformation} currentPageReviews={this.state.currentPageReviews} stars={this.state.stars} 
         beginningIndexForCurrentPageReviews={this.state.beginningIndexForCurrentPageReviews} toggleCurrentPageReviews={this.toggleCurrentPageReviews} visibleReviews={this.state.visibleReviews}
         />

@@ -1,5 +1,6 @@
 import React from 'react';
 import PageBarNumberButton from './PageBarNumberButton.jsx';
+import { TextButton} from './Styles.js'; 
 
 const PageBar = (props) => {
 
@@ -9,8 +10,8 @@ const PageBar = (props) => {
     pageButtonsArray.push(i + 1)
   }}
 
-  const backButton = <button onClick={() => {props.toggleCurrentPageReviews(props.beginningIndexForCurrentPageReviews - 7)}} >previous page</button>
-  const forwardButton = <button onClick={() => {props.toggleCurrentPageReviews(props.beginningIndexForCurrentPageReviews + 7)}} >next page</button>
+  const backButton = <TextButton onClick={() => {props.toggleCurrentPageReviews(props.beginningIndexForCurrentPageReviews - 7)}} >previous page</TextButton>
+  const forwardButton = <TextButton onClick={() => {props.toggleCurrentPageReviews(props.beginningIndexForCurrentPageReviews + 7)}} >next page</TextButton>
 
   if(props.beginningIndexForCurrentPageReviews + 7 > props.visibleReviews.length) {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { StarStyle } from './Styles.js'; 
+import { BlendedStarStyle, BlendedStarsSpan } from './Styles.js'; 
 
 const BlendedStars = (props) => {
 
@@ -22,13 +22,13 @@ const BlendedStars = (props) => {
 
   return (
     <div>
-      <span><b>{numberOfReviews.toString()} Reviews</b></span>
+      <BlendedStarsSpan><b>{numberOfReviews.toString()} Reviews</b></BlendedStarsSpan>
       <span>
         {totalStars.map((star, index) => {
           return (
-            <StarStyle key={index}>
+            <BlendedStarStyle key={index}>
               {star}
-            </StarStyle> 
+            </BlendedStarStyle> 
           )
         }
       )}

@@ -10,8 +10,6 @@ const app = express();
 app.use(bodyParser.json())
 app.use(cors())
 
-// serving bundle statically 
-
 app.use(express.static(path.join(__dirname + '/../client/dist')));
 
 app.get('/rooms/:roomId/hostDetails', (req, res) => {

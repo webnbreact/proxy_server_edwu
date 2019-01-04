@@ -1,7 +1,8 @@
 import React from 'react';
+import { TextButton} from './Styles.js'; 
 
 const PageBarNumberButton = (props) => (
-  <button onClick={() => {props.toggleCurrentPageReviews(props.beginningIndexForReviews)}}>{props.pageNum}</button>
+  <TextButton onClick={() => {props.toggleCurrentPageReviews(props.beginningIndexForReviews)}}>{props.pageNum}</TextButton>
 )
 
 export default PageBarNumberButton;
