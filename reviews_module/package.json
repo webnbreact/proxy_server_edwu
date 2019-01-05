@@ -8,10 +8,11 @@
     "node": ">=6.13.0"
   },
   "scripts": {
+    "docker-start": "node database/dummydata.js & node server/server.js",
     "react-dev": "webpack -d --watch",
     "build": "webpack",
     "start": "nodemon server/server.js",
-    "seed": "mysql -u root -p < schema.sql && node database/dummydata.js",
+    "seed": "node database/dummydata.js",
     "test": "jest",
     "test-watch": "jest --watch",
     "test-coverage": "jest --coverage --colors"

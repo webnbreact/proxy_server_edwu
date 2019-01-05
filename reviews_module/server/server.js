@@ -10,7 +10,7 @@ const app = express();
 app.use(bodyParser.json())
 app.use(cors())
 
-app.use(express.static(path.join(__dirname + '/../client/dist')));
+app.use('/rooms/:roomId/', express.static(path.join(__dirname + '/../client/dist')));
 
 app.get('/rooms/:roomId/hostDetails', (req, res) => {
     

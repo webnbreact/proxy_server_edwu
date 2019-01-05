@@ -92,6 +92,84 @@ var seedTable = (tableGeneratorFunc, queryStr, params) => {
   })
 }
 
+/////////Refactor to Promises//////////
+
+// const usersDummyData = createUsersTableData();
+// const roomsDummyData = createRoomsTableData();
+// const reviewsDummyData = createReviewsTableData();
+
+// const usersPromises = [];
+// usersDummyData.forEach((row) => {
+//   var rowParams = []
+//   usersParams.forEach((string) => {
+//     rowParams.push(row[string]);
+//   })
+//   const usersPromise = new Promise((resolve, reject) => {
+//     database.connection.query(usersQueryStr, rowParams, (err, results) => {
+//       if (err) {
+//         console.log(err);
+//         reject(err)
+//       } else {
+//         console.log(results)
+//         resolve(results);
+//       }
+//     })
+//   })
+//   usersPromises.push(usersPromise);
+// })
+
+// Promise.all(usersPromises)
+//   .then(() => {
+    
+//     const roomsPromises = [];
+//     roomsDummyData.forEach((row) => {
+//       var rowParams = []
+//       roomsParams.forEach((string) => {
+//         rowParams.push(row[string]);
+//       })
+//       const roomsPromise = new Promise((resolve, reject) => {
+//         database.connection.query(roomsQueryStr, rowParams, (err, results) => {
+//           if (err) {
+//             console.log(err);
+//             reject(err)
+//           } else {
+//             console.log(results)
+//             resolve(results);
+//           }
+//         })
+//       })
+//       roomsPromises.push(roomsPromise);
+//     })
+
+//     Promise.all(roomsPromises).then(() => {
+
+//       const reviewsPromises = [];
+//       reviewsDummyData.forEach((row) => {
+//         var rowParams = []
+//         reviewsParams.forEach((string) => {
+//           rowParams.push(row[string]);
+//         })
+//         const reviewsPromise = new Promise((resolve, reject) => {
+//           database.connection.query(reviewsQueryStr, rowParams, (err, results) => {
+//             if (err) {
+//               console.log(err);
+//               reject(err)
+//             } else {
+//               console.log(results)
+//               resolve(results);
+//             }
+//           })
+//         })
+//         reviewsPromises.push(reviewsPromise);
+//       })
+
+//       Promise.all(reviewsPromises).then(() => {
+//         // database.connection.end();
+//         process.exit()
+//       });
+//     });
+//   })
+
 seedTable(createUsersTableData, usersQueryStr, usersParams);
 seedTable(createRoomsTableData, roomsQueryStr, roomsParams);
 seedTable(createReviewsTableData, reviewsQueryStr, reviewsParams);

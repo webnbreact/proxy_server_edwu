@@ -35,7 +35,7 @@ class App extends React.Component {
     const roomId = window.location.pathname.slice(7, -1);
     $.ajax({
       method: 'GET',
-      url: `http://localhost:3000/rooms/${roomId}/reviews`,
+      url: `/rooms/${roomId}/reviews`,
       success: (data) => {
         this.setState({
           isFiltered: false,
@@ -52,7 +52,7 @@ class App extends React.Component {
     const roomId = window.location.pathname.slice(7, -1);
     $.ajax({
       method: 'GET',
-      url: `http://localhost:3000/rooms/${roomId}/hostDetails`,
+      url: `/rooms/${roomId}/hostDetails`,
       success: (data) => {
         this.setState({
           hostInformation: data[0],
@@ -65,7 +65,7 @@ class App extends React.Component {
     const roomId = window.location.pathname.slice(7, -1);
     $.ajax({
       method: 'GET',
-      url: `http://localhost:3000/rooms/${roomId}/stars`,
+      url: `/rooms/${roomId}/stars`,
       success: (data) => {
         this.setState({
           stars: data[0],
@@ -77,7 +77,7 @@ class App extends React.Component {
   getFilteredReviews(searchTerm) {
     $.ajax({
       method: 'GET',
-      url: `http://localhost:3000/rooms/${this.state.hostInformation.room_id}/query/?queryTerm=${searchTerm}`,
+      url: `/rooms/${this.state.hostInformation.room_id}/query/?queryTerm=${searchTerm}`,
       success: (data) => {
         this.setState({
           isFiltered: true,

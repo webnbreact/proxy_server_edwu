@@ -1,3 +1,5 @@
+DROP DATABASE IF EXISTS airbnb;
+
 CREATE DATABASE IF NOT EXISTS airbnb; 
 
 USE airbnb; 

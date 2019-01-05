@@ -1,9 +1,10 @@
 var mysql = require('mysql');
 
 var connection = mysql.createConnection({
-  host: 'localhost',
+  host: '172.17.0.2', 
   user: 'root',
-  database: 'airbnb'
+  database: 'airbnb', 
+  password: 'webnb'
 });
 
 connection.connect();

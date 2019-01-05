@@ -37,3 +37,11 @@ npm install -g webpack
 npm install
 ```
 
+$ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+ docker exec -it harrypotter mysql -p 
+ 
+
+docker build -t fecdb .
+docker run --name harrypotter -e MYSQL_ROOT_PASSWORD=webnb -d fecdb
+docker build -t fecserver .
+docker run -d -p 3000:3000 --name snape --rm fecserver
