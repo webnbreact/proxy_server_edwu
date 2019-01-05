@@ -10,11 +10,11 @@ body {
 
 #product-root {
   padding-top: 30px; 
-  width: 600px;
+  width: 700px;
 }
 
 #reviews-root {
-  padding-left: 90px;
+  padding-left: 100px;
   width: 350px;
   font-family: 'Montserrat', sans-serif;
 }
